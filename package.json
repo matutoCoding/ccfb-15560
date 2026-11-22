@@ -1,0 +1,25 @@
+{
+  "name": "mortise-tenon-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.2",
+    "jszip": "^3.10.1",
+    "three": "^0.171.0",
+    "three-bvh-csg": "^0.0.17"
+  },
+  "devDependencies": {
+    "@types/three": "^0.171.0",
+    "puppeteer": "^25.18.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}
